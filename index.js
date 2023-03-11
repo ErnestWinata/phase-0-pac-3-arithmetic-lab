@@ -24,23 +24,27 @@ function increment(a) {
 function decrement(a) {
     return a - 1;
 }
-function makeInt(n) {
-    return(parseInt(n, 10));
-}
-function makeInt(n) {
-    number = n
-    parseInt("0*2328", 10);
-    return number;
-}
-function makeInt(n) {
-    parseInt("sldkjflksjf", 10);
-    return (n);
-}
-function preserveDecimal(n) {
-    number = parseFloat(n, 10);
-    return number;
-}
-function preserveDecimal(n) {
-    parseFloat("sldkjflksjf", "sldkjflksjf");
-    return (n);
-}
+
+function makeInt(string){
+    return parseInt(string,10);
+  }
+function preserveDecimal(string){
+    return parseFloat(string);
+  }
+// function makeInt(n) {
+//     return(parseInt(n, 10));
+// }
+// function makeInt(string) {
+//     return parseInt(string, 10);
+// }
+// function makeInt(n) {
+//     parseInt("sldkjflksjf", 10);
+//     return (n);
+// }
+// function preserveDecimal(n) {
+//     return parseFloat(n);
+// }
+// function preserveDecimal(n) {
+//     parseFloat("sldkjflksjf", "sldkjflksjf");
+//     return (n);
+// }
